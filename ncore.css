@@ -1,0 +1,311 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #ffffff!important;
+}
+h4 {
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+}
+a {
+    color: #2196F3;
+}
+a, img, button {
+    outline:none;
+}
+label {
+    font-weight: 400 !important;
+}
+header {
+    box-shadow: none;
+    border-bottom: 1px solid #bfbfbf;
+    background-color: #f5f5f5;
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    left: 0;
+    top: 0;
+    min-height: 50px;
+}
+.block {
+    display: block !important;
+}
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f5f5f5;
+    height: 100vh;
+    width: 100%;
+}
+.content-wrapper {
+    width: 900px;
+    margin: auto;
+}
+.wide.content-wrapper {
+    width: 1200px;
+    margin: auto;
+}
+.sub-header {
+    background-color: #f5f5f5 !important;
+    border-bottom: 1px solid #bfbfbf;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+}
+.sub-header h5 {
+    font-weight: bold;
+    margin-top: 0
+}
+
+/* Tooltip */
+.n-tooltip + .tooltip > .tooltip-inner {
+    background-color: #228eea;
+}
+.n-tooltip + .tooltip > .tooltip-arrow { 
+    border-bottom-color:#228eea; 
+    border-top-color:#228eea !important 
+}
+
+/* Text */
+.text-danger {
+    color: #E4525E;
+}
+.field-validation-error {
+    font-size: .7em;
+    bottom: 6px;
+    position: relative;
+    left: 5px;
+    display: none
+}
+
+/* Cards */
+.card {
+    border: 1px solid #ccc;   
+    background-color: #fff;
+}
+.card .card-header {
+    padding: 15px 15px 30px 15px;
+}
+.card-hover {
+    transition: all .15s ease;
+    cursor: pointer;
+}
+.card-hover:hover {
+    transform: translateY(-1px);
+    -moz-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
+}
+.card-hover h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #5E5E5E;
+    font-weight: 600;
+}
+.card-hover.active {
+    background-color: #e7e7e7;
+}
+.card-hover.active .row.row-bordered {
+    border-top: 1px solid #ccc
+}
+
+/* Inputs */
+input[type=text], select, textarea {
+    border: 1px solid #d6d6d6;
+}
+
+/* Icons */
+i.back {
+    background: url('../images/i-back-button.svg') no-repeat;
+    height: 16px;
+    width: 16px;
+    display: block;
+    margin: 0 10px;
+}
+
+/* Buttons */
+.btn {
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 15px 30px
+}
+.btn-login {
+    background-color: #228eea;
+    border: none;
+    padding: 15px 30px;
+    color: #fff !important;
+    border-radius: 3px;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    line-height: 1em;
+}
+/*.btn:not(.btn-link) {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}*/
+button.btn-default {
+    background-color: #c1c1c1
+}
+    button.btn-default:hover {
+        background-color: #a0a0a0
+    }
+button.btn-active {
+    background-color: #228eea
+}
+    button.btn-active:hover {
+        background-color: #1B72BB
+    }
+.command-delete, .command-edit, .command-copy, .command-info,
+.command-history, .command-activate {
+    background-position: 50% 13px;
+    width: 100%;
+    height: 41px;
+    border: none;
+    border-radius: 0;
+}
+    .command-delete:hover, .command-edit:hover, .command-copy:hover, .command-info:hover,
+    .command-history:hover, .command-activate:hover {
+        background-color: #f5f5f500;
+    }
+
+.command-edit {
+    background: url(../images/edit.png) no-repeat;
+}
+.command-copy {
+    background: url(../images/copy.png) no-repeat;
+}
+.command-info {
+    background: url(../images/glass.png) no-repeat;
+}
+
+.last-row {
+    margin-top: 10px
+}
+.btn-primary {
+    color: #fff;
+    background-color: #2196F3;
+    border-color: #0d8aee;
+}
+.btn-xs {
+    padding: 6px 12px !important;
+    font-size: 13px
+}
+.btn-link {
+    color: #2196F3;
+    font-weight: normal;
+    border-radius: 0;
+}
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+    border-color: transparent;
+}
+.btn-link:hover,
+.btn-link:focus {
+    color: #0a6ebd;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+    color: #777777;
+    text-decoration: none;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+    padding: 10px 16px;
+    font-size: 17px;
+    line-height: 1.3333333;
+    border-radius: 2px;
+}
+.btn-sm,
+.btn-group-sm > .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 2px;
+}
+.btn-xs,
+.btn-group-xs > .btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 2px;
+}
+.btn-bord {
+    border: 1px solid #d6d6d6;
+    transition: all .3s;
+}
+.btn-bord:hover {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.16), 1px 1px 6px rgba(0, 0, 0, 0.12);
+    border: 1px solid #bfbfbf;
+}
+.btn-back {
+    padding: 5px 25px;
+    background: url('../images/i-back-button.svg') no-repeat;
+    background-size: 16px;
+    background-position: 48% 45%;
+}
+
+/* Logo */
+#logo {
+    display: block;
+    background-image: url(../images/app-logo.png);
+    height: 49px;
+    margin: 0;
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+
+/*Login*/
+#main-login, #main-password {
+    margin: auto auto;
+    padding: 30px;
+    background-color: #fff;
+    -moz-box-shadow: 0px 4px 40px 6px #ccc;
+    -webkit-box-shadow: 0px 4px 40px 6px #CCC;
+    box-shadow: 0px 4px 40px 6px #CCC;
+}
+#main-password {
+    width: 580px;
+}
+#main-login {
+    width: 900px;
+}
+.input-group.m-b-20 {
+    margin-bottom: 20px
+}
+.cont-det {
+    padding: 0 0 0 10px;
+    margin: 0 0 10px 0;
+}
+.cont-det h3 {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.cont-det.b-y h3 {
+    margin-top: 0
+}
+.cont-det p {
+    font-weight: 100;
+    font-size: 13px;
+    color: #5e5e5e;
+}
+.cont-det p {
+    margin-bottom: 10px;
+}
