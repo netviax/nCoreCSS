@@ -120,7 +120,7 @@ input[type=text], select, textarea {
 
 /* Icons */
 i.back {
-    background: url('../images/i-back-button.svg') no-repeat;
+    background: url('../img/i-back-button.svg') no-repeat;
     height: 16px;
     width: 16px;
     display: block;
@@ -172,13 +172,13 @@ button.btn-active {
     }
 
 .command-edit {
-    background: url(../images/edit.png) no-repeat;
+    background: url(../img/edit.png) no-repeat;
 }
 .command-copy {
-    background: url(../images/copy.png) no-repeat;
+    background: url(../img/copy.png) no-repeat;
 }
 .command-info {
-    background: url(../images/glass.png) no-repeat;
+    background: url(../img/glass.png) no-repeat;
 }
 
 .last-row {
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-back {
     padding: 5px 25px;
-    background: url('../images/i-back-button.svg') no-repeat;
+    background: url('../img/i-back-button.svg') no-repeat;
     background-size: 16px;
     background-position: 48% 45%;
 }
@@ -265,7 +265,7 @@ fieldset[disabled] .btn-link:focus {
 /* Logo */
 #logo {
     display: block;
-    background-image: url(../images/app-logo.png);
+    background-image: url(../img/app-logo.png);
     height: 49px;
     margin: 0;
     background-position: 0;
