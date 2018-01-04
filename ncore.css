@@ -252,15 +252,11 @@ fieldset[disabled] .btn-link:focus {
 
 /* Logo */
 #logo {
-	background: url(../imgs/app-logo.png) no-repeat;
     display: block;
     height: 49px;
     margin: 0;
     background-position: 0;
     background-repeat: no-repeat;
-}
-#logo-login {
-    background: url(../imgs/app-logo.png) no-repeat;
 }
 
 /*Login*/
