@@ -360,3 +360,6 @@ input[type="checkbox"], input[type="radio"] {
     background-position: center center;
     background-size: 50% 50%;
 }
+.custom-control-label {
+    margin-left: 7px;
+}
